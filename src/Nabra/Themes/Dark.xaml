@@ -1,0 +1,23 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <LinearGradientBrush x:Key="WindowBgGradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#081017" Offset="0.0"/>
+        <GradientStop Color="#122538" Offset="0.5"/>
+        <GradientStop Color="#0a1520" Offset="1.0"/>
+    </LinearGradientBrush>
+    <BitmapImage x:Key="BrandLogo" UriSource="pack://application:,,,/Nabra;component/Assets/logo_dark.png"/>
+    <SolidColorBrush x:Key="WindowBg" Color="Transparent"/>
+    <SolidColorBrush x:Key="SidebarBg" Color="#33000000"/>
+    <SolidColorBrush x:Key="SurfaceBg" Color="#40000000"/>
+    <SolidColorBrush x:Key="SurfaceAltBg" Color="#20ffffff"/>
+    <SolidColorBrush x:Key="BorderBrushSoft" Color="#1Affffff"/>
+    <SolidColorBrush x:Key="TextPrimary" Color="#EAF0F5"/>
+    <SolidColorBrush x:Key="TextSecondary" Color="#97A5B2"/>
+    <SolidColorBrush x:Key="ToggleOffBg" Color="#46525F"/>
+    <SolidColorBrush x:Key="DangerBrush" Color="#FF7A7A"/>
+    <SolidColorBrush x:Key="DangerSoftBrush" Color="#33FF5A5A"/>
+    <SolidColorBrush x:Key="WarnBrush" Color="#F0B54A"/>
+    <SolidColorBrush x:Key="WarnSoftBrush" Color="#33F0A800"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="#4CD08A"/>
+    <SolidColorBrush x:Key="SuccessSoftBrush" Color="#334CD08A"/>
+</ResourceDictionary>

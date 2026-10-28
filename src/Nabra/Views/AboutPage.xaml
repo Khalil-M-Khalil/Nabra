@@ -1,0 +1,78 @@
+<UserControl x:Class="Nabra.Views.AboutPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:Nabra.Localization">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="34,30,34,30" MaxWidth="860">
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,22">
+                <Image Source="{DynamicResource BrandLogo}" Width="64" Height="64" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <StackPanel Margin="16,0,0,0" VerticalAlignment="Center">
+                    <TextBlock Style="{StaticResource H1}" Text="Nabra — نبْرة"/>
+                    <TextBlock x:Name="VersionText" Style="{StaticResource Muted}"/>
+                </StackPanel>
+            </StackPanel>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr about_developer_title}"/>
+                    <Grid Margin="0,12,0,16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Width="48" Height="48" CornerRadius="14" Background="{DynamicResource SurfaceAltBg}"
+                                BorderBrush="{DynamicResource BorderBrushSoft}" BorderThickness="1"
+                                VerticalAlignment="Center" Margin="0,0,16,0">
+                            <TextBlock Text="👤" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-2,0,0"/>
+                        </Border>
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="Khalil Mohammad Khalil" FontWeight="SemiBold" FontSize="15" Foreground="{DynamicResource TextPrimary}"/>
+                            <TextBox Text="E-mail : khalilmkhalil0937@gmail.com" IsReadOnly="True" BorderThickness="0" Background="Transparent"
+                                     Padding="0" Margin="0,4,0,0" Foreground="{DynamicResource TextSecondary}" Cursor="IBeam"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Width="48" Height="48" CornerRadius="14" Background="{DynamicResource SurfaceAltBg}"
+                                BorderBrush="{DynamicResource BorderBrushSoft}" BorderThickness="1"
+                                VerticalAlignment="Center" Margin="0,0,16,0">
+                            <TextBlock Text="👤" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-2,0,0"/>
+                        </Border>
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock Text="Yazed Mlhem" FontWeight="SemiBold" FontSize="15" Foreground="{DynamicResource TextPrimary}"/>
+                            <TextBox Text="E-mail : yazed.mlhem@gmail.com" IsReadOnly="True" BorderThickness="0" Background="Transparent"
+                                     Padding="0" Margin="0,4,0,0" Foreground="{DynamicResource TextSecondary}" Cursor="IBeam"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr about_how_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,8,0,0" Text="{loc:Tr about_how_body}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr about_privacy_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,8,0,0" Text="{loc:Tr about_privacy_body}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr about_layout_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,8,0,0" Text="{loc:Tr about_layout_body}"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

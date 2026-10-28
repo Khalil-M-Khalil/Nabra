@@ -1,0 +1,119 @@
+# ==============================================================================
+# NABRA (نبْرة) — LAUNCH TEASER POSTER PROMPT & BRAND IDENTITY GUIDE
+# مخصص لتوليد بوستر إعلاني فاخر للإطلاق (Coming Soon Poster) بستايل SaaS / Apple
+# مخصص لأقوى نماذج التوليد: Midjourney v6.1 | FLUX.1 [pro] | Ideogram 2.0 | DALL-E 3
+# ==============================================================================
+
+[1] البرومبت الاحترافي الشامل (MASTER PROMPT FOR AI IMAGE GENERATORS)
+------------------------------------------------------------------------------
+انسخ البرومبت باللغة الإنجليزية كما هو إلى (Midjourney / Flux / Ideogram):
+
+PROMPT:
+"Luxury minimalist SaaS product teaser poster for a sleek Windows desktop application named 'Nabra'. Ultra-clean Apple and Linear design aesthetic, dramatic dark studio lighting. 
+
+Composition & Layout:
+- Top Center: Minimalist brand logo featuring an elegant white flowing curved wave monogram crowned by a vivid neon orange dot (#F25A29), followed by modern bold typography: 'Nabra' in pure crisp white.
+- Below the Logo: Subtitle in clean tracked-out sans-serif typography: 'WINDOWS DESKTOP APP', positioned directly above bold elegant headline text: 'Coming Soon'.
+- Lower Right Foreground: An extreme close-up, dramatic macro angle of a high-end ultra-thin matte dark titanium laptop or OLED glass screen at a 45-degree isometric tilt. The sleek curved glass corner and edge catch a delicate warm metallic rim light. On the deep black glass screen sits a beautifully rendered squircle app icon: a clean white frosted glass badge containing the black/orange Nabra wave logo, with a glossy red notification badge with the number '1'.
+- Background: Pitch-black obsidian void with luxurious, subtle organic silky dark waves and ribbon-like glossy reflections, soft velvet depth of field.
+- Bottom Left Corner: Minimalist web and social media metadata: a clean globe icon with 'www.nabra.app', and official social icons (X, Instagram) with '@nabra_app'.
+
+Style & Quality:
+Shot on 85mm macro lens, f/2.8, Octane Render, 8K resolution, photorealistic glass caustics, soft specular highlights, elegant titanium sheen, clean typography, luxury commercial poster --ar 4:5 --style raw --v 6.1"
+
+------------------------------------------------------------------------------
+[2] برومبت مخصص لـ IDEOGRAM 2.0 (المثالي لرسم النصوص والخطوط بدقة)
+------------------------------------------------------------------------------
+"A luxury dark mode teaser advertising poster for the software 'Nabra'. At the top center, the text 'Nabra' is written in bold modern sans-serif white typography next to a minimalist wave logo with a vibrant neon orange dot. Underneath, the words 'WINDOWS APP' in small uppercase letters, followed by large bold text 'Coming Soon'. In the bottom-right, a cinematic macro perspective of a sleek dark titanium laptop screen with a glowing app icon of Nabra. Pure black studio background with elegant glossy ribbon waves. Bottom-left contains tiny elegant website text 'www.nabra.app'. Ultra high definition, 8K, graphic design poster, premium Apple marketing."
+
+------------------------------------------------------------------------------
+[3] الوصف التفصيلي لعناصر التصميم (للتعديل اليدوي في Photoshop / Figma)
+------------------------------------------------------------------------------
+1. الخلفية (Background):
+   - سواد فاحم فاخر (Obsidian Black) يتداخل معه تموجات حريرية ثلاثية الأبعاد (Silk Wave Layers) بإضاءة خافتة تعطي عمقاً فخماً دون تشتيت الانتباه.
+
+2. رأس البوستر (Header):
+   - لوغو "نبْرة" بالأعلى: المنحنى الانسيابي الأبيض تعلوه النقطة البرتقالية المشعة.
+   - النص الإعلاني:
+     * سطر تمهيدي صغير: WINDOWS APP (أو DESKTOP APP)
+     * العنوان الرئيسي البارز: Coming Soon (بخط هندسي عصري مثل SF Pro Display أو Inter).
+
+3. عنصر الواجهة والجهاز (The Hero Object):
+   - زاوية ماكرو مقربة جداً (Extreme Macro) لشاشة لابتوب أو جهاز لوحي من التيتانيوم الداكن.
+   - ينعكس ضوء خافت ذهبي/برونزي خفيف على الحافة المعدنية للجهاز.
+   - على الشاشة تظهر أيقونة التطبيق (مربع دائري الحواف Frosted Squircle) يحمل شعار نبْرة، وعليه شارة إشعار حمراء صغيرة ملفتة للنظر (Notification Badge: 1).
+
+4. التذييل (Footer):
+   - في الزاوية السفلية اليسرى بخط صغير وناعم:
+     * أيقونة الموقع: www.nabra.app
+     * أيقونات السوشال ميديا: @nabra_app
+
+==============================================================================
+[4] دليل الهوية البصرية الرسمية لتطبيق نبْرة (OFFICIAL BRAND COLOR PALETTE)
+==============================================================================
+اعتمد هذه الألوان بدقة في أي تصميم أو فيديو أو بوستر لضمان هوية متسقة واحترافية:
+
+1. الألوان المميزة الأساسية (Brand Identity Colors):
+   ---------------------------------------------------------------------------
+   🟠 البرتقالي المشع (Signature Neon Orange - نقطة الشعار والأزرار المميزة):
+      - HEX: #F25A29
+      - RGB: (242, 90, 41)
+      - الاستخدام: النقطة العلوية في اللوغو، الإشعارات، الهايلايتس، الأزرار التفاعلية البارزة.
+      - رمزيته: الحيوية، الذكاء، ولفت الانتباه الفوري للتصحيح اللحظي.
+
+   🟢 الأخضر التيفاني الزمردي (Emerald Teal Accent - لون التفعيل والواجهة):
+      - HEX: #0E9F8E
+      - RGB: (14, 159, 142)
+      - الاستخدام: مفاتيح التفعيل (Toggle Switches)، التأكيدات الإيجابية، تدرجات الواجهة.
+      - رمزيته: الأمان، الخصوصية المحلية 100%، وسلاسة التحويل.
+
+2. ألوان النمط الداكن الفاخر (Dark Theme / Glassmorphism Palette):
+   ---------------------------------------------------------------------------
+   ⬛ السواد الزجاجي العميق (Obsidian Base Background):
+      - HEX: #081017
+      - RGB: (8, 16, 23)
+      - الاستخدام: خلفية التطبيق الرئيسية وخلفيات البوسترات الفاخرة.
+
+   🌌 التدرج الكحلي الزجاجي (Deep Navy Glass Midtone):
+      - HEX: #122538
+      - RGB: (18, 37, 56)
+      - الاستخدام: خلفية الكروت والبانلات الزجاجية، وتدرجات الإضاءة في الفيديو.
+
+   🪞 شفافية الزجاج المصنفر (Frosted Glass Overlay):
+      - RGBA: rgba(255, 255, 255, 0.10) إلى rgba(255, 255, 255, 0.18)
+      - الاستخدام: حدود النوافذ الزجاجية (Borders) واللوحات الشفافة العائمة.
+
+3. ألوان النمط الفاتح (Light Theme Palette):
+   ---------------------------------------------------------------------------
+   ⚪ الأبيض اللؤلؤي المصنفر (Pearl White Surface):
+      - HEX: #F5F7FA
+      - RGB: (245, 247, 250)
+      - الاستخدام: خلفية النمط الفاتح في النهار.
+
+   🌫️ الرمادي الثلجي الانسيابي (Ice Gray Midtone):
+      - HEX: #DCE3EC
+      - RGB: (220, 227, 236)
+      - الاستخدام: تدرجات الظلال الناعمة وحدود الأزرار الفاتحة.
+
+4. ألوان النصوص والطباعة (Typography Hierarchy):
+   ---------------------------------------------------------------------------
+   ▫️ النص الرئيسي (Primary Text - Dark Mode):
+      - HEX: #EAF0F5 (أبيض ناصع مع لمسة جليدية خفيفة غير مؤذية للعين).
+   
+   ▫️ النص الثانوي/الهامشي (Secondary Text - Muted):
+      - HEX: #97A5B2 (رمادي معدني ناعم).
+
+   ▪️ النص الرئيسي (Primary Text - Light Mode):
+      - HEX: #141C24 (فحمي داكن عميق وعالي التباين).
+
+5. ألوان الحالات والوظائف (Functional System Colors):
+   ---------------------------------------------------------------------------
+   🟢 حالة النجاح والتفعيل (Success / Active): #4CD08A
+   🟡 حالة التنبيه والانتظار (Warning / Soon): #F0B54A
+   🔴 حالة الإيقاف أو الحذف (Danger / Off): #FF5A5A
+
+==============================================================================
+نصيحة التصميم:
+دائماً اجمع بين الخلفية الفحمية العميقة (#081017) مع إضاءة نيون خفيفة جداً من البرتقالي (#F25A29) 
+ولمسات من الأخضر التيفاني (#0E9F8E) لتعطي إحساساً فخماً يطابق برمجيات macOS و Windows 11 الحديثة.
+==============================================================================

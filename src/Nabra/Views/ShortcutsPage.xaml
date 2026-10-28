@@ -1,0 +1,63 @@
+<UserControl x:Class="Nabra.Views.ShortcutsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:Nabra.Localization">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="34,30,34,30" MaxWidth="860">
+
+            <TextBlock Style="{StaticResource H1}" Text="{loc:Tr nav_shortcuts}"/>
+            <TextBlock Style="{StaticResource Muted}" Margin="0,4,0,22" Text="{loc:Tr sc_subtitle}"/>
+
+            <!-- Conversion shortcut -->
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr sc_convert_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,4,0,14" Text="{loc:Tr sc_convert_desc}"/>
+                    <WrapPanel x:Name="ConvertChips" HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+                        <Button Style="{StaticResource PrimaryButton}" Margin="0,0,8,0"
+                                Content="{loc:Tr btn_change_hotkey}" Click="Change_Click"/>
+                        <Button Content="{loc:Tr btn_restore_default}" Click="RestoreDefault_Click"/>
+                    </StackPanel>
+                    <Border x:Name="Banner" Visibility="Collapsed" CornerRadius="10" Padding="14,10" Margin="0,14,0,0">
+                        <TextBlock x:Name="BannerText" TextWrapping="Wrap" FontWeight="SemiBold"/>
+                    </Border>
+                </StackPanel>
+            </Border>
+
+            <!-- Quick picks -->
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr sc_quick_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,4,0,14" Text="{loc:Tr sc_quick_desc}"/>
+                    <WrapPanel x:Name="SuggestionPanel" HorizontalAlignment="Left"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Optional toggle shortcut -->
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr sc_toggle_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,4,0,14" Text="{loc:Tr sc_toggle_desc}"/>
+                    <WrapPanel x:Name="ToggleChips" HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+                        <Button Margin="0,0,8,0" Content="{loc:Tr btn_set_hotkey}" Click="SetToggle_Click"/>
+                        <Button x:Name="RemoveToggleButton" Content="{loc:Tr btn_remove}" Click="RemoveToggle_Click"/>
+                    </StackPanel>
+                    <Border x:Name="ToggleBanner" Visibility="Collapsed" CornerRadius="10" Padding="14,10" Margin="0,14,0,0">
+                        <TextBlock x:Name="ToggleBannerText" TextWrapping="Wrap" FontWeight="SemiBold"/>
+                    </Border>
+                </StackPanel>
+            </Border>
+
+            <!-- Why not Ctrl+K -->
+            <Border Style="{StaticResource Card}">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource H2}" Text="{loc:Tr sc_tips_title}"/>
+                    <TextBlock Style="{StaticResource Muted}" Margin="0,8,0,0" Text="{loc:Tr sc_tips_body}"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
